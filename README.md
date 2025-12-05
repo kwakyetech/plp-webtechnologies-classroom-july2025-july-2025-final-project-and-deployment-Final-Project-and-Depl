@@ -2,6 +2,8 @@
 
 A responsive, multi-page website for a fictional coffee shop, "Bean & Brew".
 
+**🚀 Live Demo:** [https://beannbrew.netlify.app/](https://beannbrew.netlify.app/)
+
 ## Features
 - **Home**: Hero section, features, and call-to-action.
 - **Menu**: Categorized menu with images and prices.
