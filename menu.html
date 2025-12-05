@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Bean & Brew</title>
+    <meta name="description" content="Explore our menu of artisanal coffees, teas, and fresh pastries.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Bean & Brew ☕</a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h1>Our Menu</h1>
+        
+        <div class="menu-tabs">
+            <button class="tab-btn active" data-category="all">All</button>
+            <button class="tab-btn" data-category="coffee">Coffee</button>
+            <button class="tab-btn" data-category="tea">Tea</button>
+            <button class="tab-btn" data-category="pastry">Pastries</button>
+        </div>
+
+        <div class="menu-grid" id="menu-grid">
+            <!-- Coffee Items -->
+            <div class="menu-item" data-category="coffee">
+                <div class="menu-item-content">
+                    <h3>Espresso</h3>
+                    <p class="price">$3.00</p>
+                    <p class="description">Rich and bold single shot.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="coffee">
+                <div class="menu-item-content">
+                    <h3>Cappuccino</h3>
+                    <p class="price">$4.50</p>
+                    <p class="description">Espresso with steamed milk and foam.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="coffee">
+                <div class="menu-item-content">
+                    <h3>Cold Brew</h3>
+                    <p class="price">$4.00</p>
+                    <p class="description">Steeped for 12 hours for a smooth taste.</p>
+                </div>
+            </div>
+
+            <!-- Tea Items -->
+            <div class="menu-item" data-category="tea">
+                <div class="menu-item-content">
+                    <h3>Earl Grey</h3>
+                    <p class="price">$3.50</p>
+                    <p class="description">Classic black tea with bergamot oil.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="tea">
+                <div class="menu-item-content">
+                    <h3>Matcha Latte</h3>
+                    <p class="price">$5.00</p>
+                    <p class="description">Premium green tea powder with steamed milk.</p>
+                </div>
+            </div>
+
+            <!-- Pastry Items -->
+            <div class="menu-item" data-category="pastry">
+                <div class="menu-item-content">
+                    <h3>Croissant</h3>
+                    <p class="price">$3.50</p>
+                    <p class="description">Buttery, flaky, and baked fresh daily.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pastry">
+                <div class="menu-item-content">
+                    <h3>Blueberry Muffin</h3>
+                    <p class="price">$3.00</p>
+                    <p class="description">Bursting with fresh blueberries.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Bean & Brew</div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="social-media">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Bean & Brew. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
